@@ -1,4 +1,4 @@
-provider "aws" {
+provider "aws_ami" {
     region = "us-east-2"  # Set your desired AWS region
 }
 
