@@ -1,6 +1,3 @@
-provider "aws_ami" {
-    region = "us-east-2"  # Set your desired AWS region
-}
 
 resource "aws_instance" "example" {
     ami           = "User1"  # Specify an appropriate AMI ID
